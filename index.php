@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,94 +14,85 @@
 <body>
 
     <?php include 'navbar.php'; ?>
+    <?php include 'function.php'; ?>
 
-        <!-- Background -->
-        <div class="hero">
-            <div>
-                <h2 class="fw-bold animate-title">Selamat Datang Di Website</h2>
-                <h4 class="animate-subtitle">SMKN 4 TASIKMALAYA </h4>
-            </div>
+
+
+    <!-- Background -->
+    <div class="hero">
+        <div>
+            <h2 class="fw-bold animate-title">Selamat Datang Di Website</h2>
+            <h4 class="animate-subtitle">SMKN 4 TASIKMALAYA </h4>
         </div>
+    </div>
 
-        <!--  Sambutan -->
-        <div class="container ">
-            <div class="card custom-card p-4 mb-5">
-                <div class="row align-items-center">
-                    <div class="col-md-6 d-flex">
-                        <img src="galeri/kepala sekolah.png" alt="Kepala Sekolah" class="profile-img me-3">
-                        <div>
-                            <h6 class="fw-bold mb-1">Sambutan Kepala Sekolah</h6>
-                            <p class="mb-1"><strong>Kurniawan Spd.mpd</strong></p>
-                            <p class="text-muted small">
-                                Segala puji dan syukur kita panjatkan kehadirat Allah SWT, semoga kita semua ada dalam lindungan-Nya.
-                                Dan atas perkenan-Nya pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini.
-                            </p>
-                            <a href="sambutan.php" class="btn btn-primary btn-sm">Selengkapnya</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <h6 class="fw-bold mb-3">Statistik Data Sekolah</h6>
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="stat-number">82</div>
-                                <div class="stat-label">Guru</div>
-                            </div>
-                            <div class="col-4">
-                                <div class="stat-number">1500</div>
-                                <div class="stat-label">Siswa</div>
-                            </div>
-                            <div class="col-4">
-                                <div class="stat-number">10</div>
-                                <div class="stat-label">Staf</div>
-                            </div>
-                        </div>
+    <!--  Sambutan -->
+    <div class="container ">
+        <div class="card custom-card p-4 mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 d-flex">
+                    <img src="galeri/kepala sekolah.png" alt="Kepala Sekolah" class="profile-img me-3">
+                    <div>
+                        <h6 class="fw-bold mb-1">Sambutan Kepala Sekolah</h6>
+                        <p class="mb-1"><strong>Kurniawan Spd.mpd</strong></p>
+                        <p class="text-muted small">
+                            Segala puji dan syukur kita panjatkan kehadirat Allah SWT, semoga kita semua ada dalam lindungan-Nya.
+                            Dan atas perkenan-Nya pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini.
+                        </p>
+                        <a href="sambutan.php" class="btn btn-primary btn-sm">Selengkapnya</a>
                     </div>
                 </div>
-            </div>
-
-       <!-- SECTION BERITA -->
-    <div class="container py-5">
-        <!-- Judul dan Deskripsi -->
-        <div class="mb-4">
-            <h2 class="berita-title">Berita <span>Terbaru</span></h2>
-            <p>
-                Berita terbaru, cerita inspiratif dan informasi terkini seputar kegiatan sekolah kami.
-            </p>
-        </div>
-
-        <!-- Kartu Berita -->
-        <div class="row g-4">
-            <!-- Berita 1 -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm rounded-4">
-                    <img src="galeri/beritaa 1.jpg" class="card-img-top" alt="Berita 1" style="object-fit: cover; height: 250px;">
-                    <div class="card-body d-flex flex-column">
-                        <p class="card-text-date mb-1">Senin, 07 Oktober 2024</p>
-                        <h5 class="card-title">Kapolsek Cibeureum AKP Nurrozi memberikan penyuluhan kepada siswa SMKN 4 Tasikmalaya terkait larangan knalpot brong dan aksi geng motor.</h5>
-                        <a href="https://newstasikmalaya.com/tag/smkn-4-kota-tasikmalaya" class="btn-baca mt-auto">Baca Selengkapnya →</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Berita 2 -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm rounded-4">
-                    <img src="galeri/honda.jpeg" class="card-img-top" alt="Berita 2" style="object-fit: cover; height: 250px;">
-                    <div class="card-body d-flex flex-column">
-                        <p class="card-text-date mb-1">Senin, 20 Mei 2024</p>
-                        <h5 class="card-title">Honda Resmikan Safety Riding Lab di SMKN 4 Tasikmalaya, Ciptakan Bibit Keselamatan di Jawa Barat</h5>
-                        <a href="https://www.pikiran-rakyat.com/otomotif/pr-018109177/honda-resmikan-safety-riding-lab-di-smkn-4-tasikmalaya-ciptakan-bibit-keselamatan-pada-gen-z?page=all" class="btn-baca mt-auto">Baca Selengkapnya →</a>
+                <div class="col-md-6 text-center">
+                    <h6 class="fw-bold mb-3">Statistik Data Sekolah</h6>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="stat-number">82</div>
+                            <div class="stat-label">Guru</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-number">1500</div>
+                            <div class="stat-label">Siswa</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-number">10</div>
+                            <div class="stat-label">Staf</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-    
 
-    
+    <!-- SECTION BERITA -->
+    <div class="container py-5">
+        <div class="mb-4">
+            <h2 class="berita-title">Berita <span>Terbaru</span></h2>
+            <p>Berita terbaru, cerita inspiratif dan informasi terkini seputar kegiatan sekolah kami.</p>
+        </div>
+
+        <div class="row g-4">
+            <?php
+            tampilkanBerita(
+                "galeri/beritaa 1.jpg",
+                "Senin, 07 Oktober 2024",
+                "Kapolsek Cibeureum AKP Nurrozi memberikan penyuluhan kepada siswa SMKN 4 Tasikmalaya terkait larangan knalpot brong dan aksi geng motor.",
+                "https://newstasikmalaya.com/tag/smkn-4-kota-tasikmalaya"
+            );
+
+            tampilkanBerita(
+                "galeri/honda.jpeg",
+                "Senin, 20 Mei 2024",
+                "Honda Resmikan Safety Riding Lab di SMKN 4 Tasikmalaya, Ciptakan Bibit Keselamatan di Jawa Barat",
+                "https://www.pikiran-rakyat.com/otomotif/pr-018109177/honda-resmikan-safety-riding-lab-di-smkn-4-tasikmalaya-ciptakan-bibit-keselamatan-pada-gen-z?page=all"
+            );
+            ?>
+        </div>
+    </div>
+
+
+
+
 
     <!-- SECTION GALERI -->
     <div class="container mb-5">
